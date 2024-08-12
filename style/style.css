@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  /*background-color: #f6f0f2;*/
+  background-color: rgb(253, 244, 228);
+  font-family: "Inter", sans-serif;
+}
+
+:root{
+--gray-color:#333333;
+}
+.container {
+  display: flex;
+  margin-left: 80px;
+ 
+}
+
+.profile-data {
+  margin: 19px;
+
+}
+
+.profile-data img {
+  width: 300px;
+}
+
+.profile-img{
+  margin-top: 70px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px !important;
+  margin: 0px 70px;
+}
+
+.icon{
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.icon:hover{
+scale: 1.2;
+transition: 0.3s;
+}
+
+.icon iconify-icon{
+  color: blacK;
+}
+
+.icon:hover iconify-icon{
+  scale: 1.1;
+}
+
+.profile-data button {
+  width: 210px;
+  margin: 24px 70px;
+  border: 1px solid #181818;
+  border-radius: 10px;
+  background-color: rgb(253, 246, 232);
+  padding: 20px 40px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(70, 45, 0);
+  transition: 0.3s;
+}
+
+.profile-data button:hover {
+  cursor: pointer;
+  font-weight: 500;
+  border-color: orangered;
+  background-color: rgb(252, 192, 82);
+  transition: 0.3s;
+}
+
+.profile-details {
+  margin-left: 35px;
+}
+
+.profile-details .intro h3 {
+  color: orangered;
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.profile-details .intro h4 {
+  margin-top: 50px;
+  color: #181818;
+  font-weight: 400;
+  font-size: 62px;
+}
+
+.profile-details .intro p {
+  color: var(--gray-color);
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+.Experience-no {
+  justify-content: center;
+}
+
+.Experience {
+  display: flex;
+ justify-content: space-between;
+  margin-top: 260px;
+}
+
+.Experience h1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 45px;
+  color: orangered;
+}
+
+.Experience span {
+  font-weight: 400;
+  font-size: 17px;
+  color: #333333;
+}
+
+/*about section*/
+
+.about {
+  margin-top: 120px;
+}
+
+.about h3 {
+  font-weight: 400;
+  font-size: 22px;
+  color:  orangered;
+}
+
+.about h4 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 26px;
+  color: #181818;
+}
+
+.about p {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #333333;
+}
+/*end about*/
+
+/*career section*/
+.career{
+margin-top: 130px;
+}
+
+.career h3 {
+  font-weight: 400;
+  font-size: 22px;
+  color:  orangered;
+}
+
+.career h4 {
+    margin-top: 20px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #181818;
+}
+
+.career span {
+margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+
+.career h5 {
+    margin-top: 8px;
+      font-weight: 400;
+      font-size: 25px;
+      color: #181818;
+    }
+/*end career*/
+
+/*.survices{
+margin-top: 130px;
+}*/
+
+.survices{
+  margin-top: 140px;
+}
+.survices h3{
+  font-weight: 400;
+  font-size: 22px;
+  color: orangered;
+}
+
+.survices h4{
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #181818;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns button{
+  margin-top: 30px;
+  padding: 20px 43px;
+  border-radius: 20px;
+  border: 1px solid var(--gray-color);
+  transition: 0.5s;
+}
+
+.btns button:hover{
+  cursor: pointer;
+  border-color: orangered;
+  transition: 0.5s;
+}
+
+
+.btns h5{
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #181818;
+}
+
+.btns span{
+ 
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+  
+}
+.skills h3{
+  margin-top: 140px;
+  margin-bottom: 20px;
+font-weight: 400;
+font-size: 22px;
+color: orangered;
+}
+
+.skills h4{
+  font-weight: 400;
+font-size: 35px;
+}
+
+.skills-imgs{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+ font-size: 40px;
+}
+/*start portfolio*/
+.portfolio{
+  margin-top: 120px;
+}
+.portfolio h3{
+  font-weight: 400;
+  font-size: 22px;
+  color: orangered;
+
+}
+
+.portfolio h4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #181818;
+
+}
+
+  
+.img-2-3{
+  display: flex;
+  margin-top: 10px;
+  
+}
+
+.project-3{
+  margin-left: 10px;
+}
+
+/*end portfolio*/
+/*start comment section*/
+
+.comment{
+  margin-top: 160px;
+}
+
+.comment h3{
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  color: orangered;
+}
+
+.comment h4{
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #181818;
+}
+.comment-box{
+border-color: #333333;
+border-radius: 20px;
+padding: 30px;
+
+}
+
+.comment-box:hover{
+border-color: rgb(224, 61, 1);
+}
+
+.comment-profile{
+  width: 60px;
+}
+.clints-comment{
+  padding: 30px;
+  display: flex;
+}
+
+
+.clints-comment h2{
+  margin-top: 8px;
+  margin-left: 23px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #181818;
+}
+
+.clints-comment span{
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #181818;
+}
+
+.comment-1{
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #181818;
+}
+
+/*end comment*/
+
+/*start brand worldwide*/
+.worldwide{
+  margin-top: 160px;
+}
+
+
+.worldwide h3{
+  font-weight: 400;
+  font-size: 24px;
+  color: orangered;
+}
+.worldwide h4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #181818;
+}
+
+
+.brand-icons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.brand{
+font-size: 30PX;
+}
+
+
+/*start form section*/
+.form{
+  margin-top: 140px;
+}
+
+.form h3{
+  margin-bottom: 80px;
+  font-weight: 400;
+  font-size: 24px;
+  color: orangered;
+}
+.form-input{
+  margin: 20px 0px;
+}
+.form label{
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+.form-input input:focus{
+  outline: none;
+}
+.form input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dddddd;
+  width: 620px;
+}
+
+.form-textarea textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dddddd;
+  width: 620px;
+  padding: 7px;
+}
+.form-textarea textarea:focus{
+  outline: none;
+}
+
+.hire-btn{
+  padding: 12px 65px;
+  border-radius: 10px;
+  border: 1px solid #181818;
+  background-color: rgb(253, 245, 231);
+  margin: 20px 0px;
+  font-weight: 400;
+  font-size: 10px;
+  color: #181818;
+  transition: 0.6s;
+}
+.hire-btn:hover {
+  cursor: pointer;
+  font-weight: 600;
+  border-color: orangered;
+  background-color: rgb(252, 192, 82);
+  transition: 0.6s;
+}
+
+.hire-btn:focus{
+  outline: none;
+}
